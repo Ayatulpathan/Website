@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(37, 1, 165);
+        }
+        h1{
+            text-align: center;
+            color:rgb(16, 1, 68);
+            background-color: blanchedalmond;
+        }
+        .btn-group button {
+  background-color: #04AA6D; 
+  border-radius: 5%;
+  border: 1px solid green;
+  color: white; 
+  padding: 20px 24px;
+  cursor: pointer; 
+  float: left; 
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; 
+}
+
+
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+    </style>
+</head>
+<h1>Hall Rooms</h1>
+<body>
+    <div class="btn-group">
+      <button id="ROOM1" class="blob-btn">
+        ROOM1
+      </button>
+      <script type="text/javascript">
+        document.getElementById("ROOM1").onclick = function () {
+            location.href = "room1.html";
+        };
+    </script>
+     <!---- <script type="text/javascript">
+        const lol =document.getElementsByTagName("button");
+        lol.forEach(element => {
+          console.log(element)
+        });
+    </script>--->
+        <button>ROOM2</button>
+        <button>ROOM3</button>
+        <button>ROOM4</button>
+        <button>ROOM5</button>
+        <button>ROOM6</button>
+        <button>ROOM7</button>
+        <button>ROOM8</button>
+        <button>ROOM9</button>
+        <button>ROOM10</button>
+        <button>ROOM11</button>
+        <button>ROOM12</button>
+        <button>ROOM13</button>
+        <button>ROOM14</button>
+        <button>ROOM15</button>
+        <button>ROOM16</button>
+        <button>ROOM17</button>
+        <button>ROOM18</button>
+        <button>ROOM19</button>
+        <button>ROOM20</button>
+        <button>ROOM21</button>
+        <button>ROOM22</button>
+        <button>ROOM11</button>
+        <button>ROOM12</button>
+      </div>
+</body>
+</html>

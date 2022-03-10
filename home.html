@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .img-container {
+          text-align: center;
+        }
+      </style>
+     <div class="img-container">
+        <img src ="logo1.jpg" style="width:60px;height:60px"  alt="">
+    <h1>JASHORE UNIVERSITY OF SCIENCE AND TECHNOLOGY</h1>
+    <marquee direction="right"><h1>Shaheed Mashiur Rahman Hall</h1></marquee>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>just hallmate</title>
+    <script>
+      function myFunction()
+      {
+        var un =document.forms["myform"]["uname"].value;
+        var pw =document.forms["myform"]["pass"].value;
+        if((un=="ayat" && pw=="1234" ) || (un=="adnan" && pw=="batpar"))
+        {
+          window.location.href="frontpage1.html";
+        }
+        else{
+          alert("invalid username or password");
+        }
+      }
+    </script>
+    <style>
+      .div1{
+        width: 350px;
+        margin: auto;
+        margin: 10 0 0 450px;
+        overflow: hidden;
+        padding: 75px;
+        background:transparent;
+      }
+      h2{
+      
+        text-align: center;
+        padding: 10px;
+        color: #003300;
+      }
+      label{
+        color: rgb(12, 151, 243);
+        padding-left: 10px;
+      }
+      .inputtext{
+        width: 300px;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+        padding-left: 7px;
+        color: rgb(16, 160, 243);
+        font-size: 16px;;
+      }
+      #logbutton{
+        width: 300px;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+        padding-left: 7px;
+        color: rgb(16, 160, 243);
+        font-size: 16px;
+      }
+      h3{
+        text-align: end;
+        color: rgb(251, 252, 246);
+      }
+    </style>
+</head>
+
+<style>
+    body {
+      background-image: url('hall.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    </style>
+    <body>
+      <h2><b>HallMate</b></h2>
+      <div class="div1">
+        <form name="myform" method="post">
+         <!---- <label>Username</label>-->
+          <input type="text" name="uname" class="inputtext" placeholder="user name">
+          <br><br>
+         <!---- <label>password</label>-->
+          <input type="password" name="pass" class="inputtext" placeholder="password">
+          <br><br>
+          <input type="button" name="log" id="logbutton" value="login" onclick="myFunction()">
+          <br><br>
+        </form>
+
+      </div>
+<h3><i>Designed by Ayatul Khan Pathan</i></h3>
+
+
+
+
+
+
+
+    
+   <!---- <input type="text" 
+    size="40" 
+    placeholder="Username" /><br>
+    <input type="text" 
+       size="40" 
+       placeholder="Password" /><br>
+       <input type="submit" 
+       size="40" 
+       placeholder="Login" -->
+    
+    
+</body>
+</html>
